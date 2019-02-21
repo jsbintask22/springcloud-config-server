@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    username: root
+    password: jason
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_cloud_sell?characterEncoding=utf-8&useSSL=false
+
+  rabbitmq:
+    host: 192.168.70.130
+    port: 5672
+    username: jason
+    password: jason
+
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+
+env: tttvvv
+env2: tttttsfsf
